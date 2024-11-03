@@ -1,4 +1,4 @@
-# FastAPI MySQL Docker Project
+# FEmployee Fast API Project
 
 This API is built using python fastapi and it interacts with the database using sqlachemy client. `dockerfile` and `docker-compose.yml` file are given and used to run both api and the database.
 
@@ -82,7 +82,7 @@ docker-compose.yml    # Docker Compose configuration
       "employee_salary": 60000
     }`
 - **Delete Employee**: `DELETE /employees/{employee_id}`
-  - **Response**: `    {
+  - **Response**: `{
       "detail": "Employee deleted"
     }`
 
